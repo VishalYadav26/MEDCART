@@ -1,6 +1,6 @@
-# XoXo
+# MEDCART
 
-An E-commerce web application where you get to shop exciting &amp; new items.
+An E-commerce web application where you get to  medical shop exciting &amp; new items.
 
 Main Features:
 
