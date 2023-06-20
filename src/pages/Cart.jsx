@@ -68,11 +68,11 @@ function Cart() {
             </div>
             <div className="flex justify-between lg:mx-0 gap-10 mb-3">
               <p className="font-gilroyMedium">Shipping:</p>
-              <span>${shipping}</span>
+              <span>₹{shipping}</span>
             </div>
             <div className="flex justify-between lg:mx-0 gap-10 ">
               <p className="font-gilroyMedium">Total:</p>
-              <span>${totalAmount}</span>
+              <span>₹{totalAmount}</span>
             </div>
           </div>
           {/* second part of the details */}
@@ -87,11 +87,11 @@ function Cart() {
             </button>
             {ShowPay ? (
               <StripeCheckout
-                name="CodeSpot Ecommerce store"
+                name="MED_CART STORE"
                 stripeKey="pk_test_51MmpofIM7SnoQNQVjZDGfyRRzxhwUkT1f9mAq8yxAo2sTYNRvrAtNoJzDE8eUeui3YT86s9NvhIIgCgB4PXxNcba00OFGyPIgi"
                 amount={totalAmount * 100}
                 label="Pay with Stripe"
-                description={`Your Payment amount is $ ${totalAmount}`}
+                description={`Your Payment amount is ₹ ${totalAmount}`}
                 token={payment}
                 email={Authuser.email}
               />

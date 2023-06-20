@@ -53,7 +53,7 @@ console.log("Document written with ID: ", docRef.id);
           data-aos="fade-in"
         >
           <p className="text-gray-400 text-left">
-            Absolutely Hot Collections🔥
+            Absolutely Best Platform🔥
           </p>
           <div className="flex flex-col gap-6 relative">
             <h1 className="text-3xl sm:text-5xl xl:text-7xl leading-[1.2] my-6 font-gilroyBold text-left ">
@@ -112,129 +112,7 @@ console.log("Document written with ID: ", docRef.id);
 
       </section>
       
-      {/* updated */}
-
-      {/* <section class="featured-doctors"> */}
-  {/* <!-- Nested Container Starts --> */}
-  {/* <div class="container2">
-    <h2><span class="lite">Meet Our</span> Doctors</h2>
-    <p>
-      Making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved
-      over the years, sometimes by accident.
-    </p>
-    <div class="row"> */}
-          
-      {/* <!-- Doctor Bio #1 Starts --> */}
-      {/* <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="bio-box">
-          <div class="profile-img">
-            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9jdG9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Doctor" class="img-responsive img-center-sm img-center-xs img-fluid d-block"/>
-            <div class="overlay">
-              <ul class="list-unstyled list-inline sm-links">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="inner">
-            <h5>Dr. Tom Smith Bert</h5>
-            <p class="designation">Surgeon</p>
-            <p class="divider"><i class="fa fa-plus-square"></i></p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book.
-            </p>
-          </div>
-          <a href="doctor-profile.html" class="btn btn-transparent inverse text-uppercase">Book An Appointment</a>
-        </div>
-      </div> */}
-      {/* <!-- Doctor Bio #1 Ends --> */}
-
-      {/* <!-- Doctor Bio #2 Starts --> */}
-      {/* <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="bio-box">
-          <div class="profile-img">
-            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9jdG9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Doctor" class="img-responsive img-center-sm img-center-xs"/>
-            <div class="overlay">
-              <ul class="list-unstyled list-inline sm-links">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="inner">
-            <h5>Dr. Tom Smith Bert</h5>
-            <p class="designation">Surgeon</p>
-            <p class="divider"><i class="fa fa-plus-square"></i></p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book.
-            </p>
-          </div>
-          <a href="doctor-profile.html" class="btn btn-transparent inverse text-uppercase">Book An Appointment</a>
-        </div>
-      </div> */}
-      {/* <!-- Doctor Bio #2 Ends --> */}
-
-      {/* <!-- Doctor Bio #3 Starts --> */}
-      {/* <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="bio-box">
-          <div class="profile-img">
-            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9jdG9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Doctor" class="img-responsive img-center-sm img-center-xs"/>
-            <div class="overlay">
-              <ul class="list-unstyled list-inline sm-links">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="inner">
-            <h5>Dr. Tom Smith Bert</h5>
-            <p class="designation">Surgeon</p>
-            <p class="divider"><i class="fa fa-plus-square"></i></p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book.
-            </p>
-          </div>
-          <a href="doctor-profile.html" class="btn btn-transparent inverse text-uppercase">Book An Appointment</a>
-        </div>
-      </div> */}
-      {/* <!-- Doctor Bio #3 Ends --> */}
-
-      {/* <!-- Doctor Bio #4 Starts --> */}
-      {/* <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="bio-box">
-          <div class="profile-img">
-            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9jdG9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Doctor" class="img-responsive img-center-sm img-center-xs"/>
-            <div class="overlay">
-              <ul class="list-unstyled list-inline sm-links">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="inner">
-            <h5>Dr. Tom Smith Bert</h5>
-            <p class="designation">Surgeon</p>
-            <p class="divider"><i class="fa fa-plus-square"></i></p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book.
-            </p>
-          </div>
-          <a href="doctor-profile.html" class="btn btn-transparent inverse text-uppercase">Book An Appointment</a>
-        </div>
-      </div> */}
-      {/* <!-- Doctor Bio #4 Ends --> */}
-          
-    {/* </div>  */}
-    {/* <!-- End of row --> */}
-  {/* </div> */}
-  {/* <!-- Nested Container Ends --> */}
-{/* </section> */}
-{/*  */}
-      {/* updated */}
+      
 
       <div class="fw">
             <div class="table">
@@ -242,68 +120,83 @@ console.log("Document written with ID: ", docRef.id);
                <table>
                 <tr>
                     <th>Service Names</th>
-                    <th>Stage</th>
-                    <th>$ Price</th>
+                    <th>Stage   .</th>
+                    <th>₹ Price   .</th>
                 </tr>
                 <tr>
-                    <td>Teeth Whitening Service at home</td>
+                    <td>Teeth Whitening Service at home    </td>
                     <td>1 times</td>
-                    <td>$115.00</td>
+                    <td>₹115.00</td>
                 </tr>
                 <tr>
-                    <td>Teeth Whitening Service at Dental Clinic</td>
+                    <td>Teeth Whitening Service at Dental Clinic    </td>
                     <td>1 times</td>
-                    <td>$150.00</td>
+                    <td>₹150.00</td>
                 </tr>
                 <tr>
-                    <td>Ceramic crowns and fillings Dental porcelain</td>
+                    <td>Ceramic crowns and fillings Dental porcelain    </td>
                     <td>1 times</td>
-                    <td>$515.00</td>
+                    <td>₹515.00</td>
                 </tr>
                 <tr>
-                    <td>Remove crowns, bridges Service</td>
+                    <td>Remove crowns, bridges Service    </td>
                     <td>1 times</td>
-                    <td>$1015.00</td>
+                    <td>₹1015.00</td>
                 </tr>
                 <tr>
-                    <td>Covering the recession of the gums</td>
+                    <td>Covering the recession of the gums    </td>
                     <td>1 times</td>
-                    <td>$1105.00</td>
+                    <td>₹1105.00</td>
                 </tr>
                 <tr>
-                    <td>Consultation, impressions and preparation of models</td>
+                    <td>Routine Check-ups    </td>
                     <td>1 times</td>
-                    <td>$3115.00</td>
+                    <td>₹3115.00</td>
                 </tr>
                 <tr>
-                    <td>Removal of an old inlay, old crown</td>
+                    <td>Vaccinations (such as flu shots)    </td>
                     <td>1 times</td>
-                    <td>$8115.00</td>
+                    <td>₹8115.00</td>
                 </tr>
                 <tr>
-                    <td>Overlay teeth whitening ( 2 arches)</td>
+                    <td>Blood Pressure Monitoring    </td>
                     <td>1 times</td>
-                    <td>$1215.00</td>
+                    <td>₹1215.00</td>
                 </tr>
                 <tr>
-                    <td>Standard porcelain and zirconium crown on implant</td>
+                    <td>Cholesterol Screening     </td>
                     <td>1 times</td>
-                    <td>$115.10</td>
+                    <td>₹115.10</td>
                 </tr>
                 <tr>
-                    <td>Implantation of an implant (price depends on system used)</td>
+                    <td>Allergy Testing    </td>
                     <td>1 times</td>
-                    <td>$50</td>
+                    <td>₹50.00</td>
+                </tr>
+                <tr>
+                    <td>Physical Examination for Sports    </td>
+                    <td>1 times</td>
+                    <td>₹500.00</td>
+                </tr>
+                <tr>
+                    <td>Ear Wax Removal    </td>
+                    <td>1 times</td>
+                    <td>₹50.00</td>
+                </tr>
+                <tr>
+                    <td>Urinary Tract Infection Treatment    </td>
+                    <td>1 times</td>
+                    <td>₹550.00</td>
                 </tr>
                </table>
-               <button>Read More <i class="far fa-arrow-alt-circle-right"></i> </button>
+               {/* <button>Read More <i class="far fa-arrow-alt-circle-right"></i> </button> */}
             </div>
         </div>
 {/* <!-- ............................................Apointment Part............................................ --> */}
         <div class="apointment">
             <div class="fw">
                 <div class="full-input">
-                    <h1>Book An Apointment</h1>
+                    <h1><b>Book An Apointment</b></h1>
 
                     <input value={name} onChange={e=>setName(e.target.value)} placeholder="Your Name" type="text" name="" id="input"/>
                     <input value={phone} onChange={e=>setPhone(e.target.value)} placeholder="Your Phone" type="number" name="" id="input"/>
@@ -332,16 +225,6 @@ console.log("Document written with ID: ", docRef.id);
                         <option value="2.00pm to 3.00pm">2.00pm to 3.00pm</option>
                         <option value="3.00pm to 4.00pm">3.00pm to 4.00pm</option>
                     </select>
-                    {/* <select name="#" id="input-1">
-                        <option value="select">Choice Time </option>
-                        <option value="select">9.00am to 10.00 am</option>
-                        <option value="select">10.00am to 11.00am</option>
-                        <option value="select">11.00am to 12.00pm</option>
-                        <option value="select">12.00pm to 1.00pm</option>
-                        <option value="select">1.00pm to 2.00pm</option>
-                        <option value="select">2.00pm to 3.00pm</option>
-                        <option value="select">3.00pm to 4.00pm</option>
-                    </select>  */}
                     
                     <textarea value={message} onChange={e=>setMessage(e.target.value)} placeholder="Your Message............" name="text" id="input-2"></textarea>
                     <button onClick = {handleSubmit} value="submit data">BOOKING NOW</button>
@@ -349,7 +232,101 @@ console.log("Document written with ID: ", docRef.id);
             </div>
         </div>
 
+  <section id="blog" class="blog">
+
+  <h1 className="text-4xl text-center"><b>Our Blogs</b></h1>
+
+  <div class="box-container">
+
+    {/* <!--     start post  --> */}
+    <div class="box">
+
+      {/* <!--       image --> */}
+      <div class="image">
+        <img src="https://si-prod-cms-static-pz.b-cdn.net/thumbs/alzheimers_1280.jpg?v=20151114" alt=""/>
+      </div>
+      {/* <!--         blog content --> */}
+      <div class="content">
+        <a href="#" class="link">Alzheimer's Disease:</a>
+
+        <div class="icons">
+
+          <a href="#"> <i class="fas fa-calendar"> </i>01<sup>st</sup> June, 2023</a>
+
+          <a href="#"><i class="fas fa-user"></i>by admin</a>
+
+        </div>
+        <h3>The most common problems?</h3>
+        <p>Alzheimer's disease is a progressive neurological disorder that affects the brain, primarily causing problems with memory, thinking, and behavior. It is the most common form of dementia, a group of disorders characterized by cognitive decline and loss of daily functioning. ...</p>
+        {/* <a href="" class="btn">read more</a> */}
+      </div>
+      {/* <!--         end content --> */}
+
+    </div>
+    {/* <!--     end post --> */}
+    {/* <!--     start post  --> */}
+    <div class="box">
+
+      {/* <!--       image --> */}
+      <div class="image">
+        <img src="https://www.niddk.nih.gov/-/media/Images/Blog/Streamlining-Medication-Management-TW-1200x630.jpg" alt=""/>
+      </div>
+      {/* <!--         blog content --> */}
+      <div class="content">
+        <a href="#" class="link">Diabetes Mellitus:</a>
+
+        <div class="icons">
+
+          <a href="#"> <i class="fas fa-calendar"> </i>01<sup>st</sup> May, 2022</a>
+
+          <a href="#"><i class="fas fa-user"></i>by admin</a>
+
+        </div>
+        <h3>The most common problems?</h3>
+        <p>Diabetes mellitus, often referred to as diabetes, is a chronic metabolic disorder characterized by high blood sugar levels (hyperglycemia). It occurs when the body either does not produce enough insulin or cannot effectively use the insulin it produces. Insulin is a hormone that regulates the uptake and utilization of glucose (sugar) in the body.  ...</p>
+        {/* <a href="" class="btn">read more</a> */}
+      </div>
+      {/* <!--         end content --> */}
+
+    </div>
+    {/* <!--     end post --> */}
+    {/* <!--     start post  --> */}
+    <div class="box">
+
+      {/* <!--       image --> */}
+      <div class="image">
+        <img src="https://m.economictimes.com/thumb/msid-82014268,width-1200,height-900,resizemode-4,imgsize-640528/pd.jpg" alt=""/>
+      </div>
+      {/* <!--         blog content --> */}
+      <div class="content">
+        <a href="#" class="link">Parkinson's Disease:</a>
+
+        <div class="icons">
+
+          <a href="#"> <i class="fas fa-calendar"> </i>01<sup>st</sup> January, 2022</a>
+
+          <a href="#"><i class="fas fa-user"></i>by admin</a>
+
+        </div>
+        <h3>The most common problems?</h3>
+        <p>Parkinson's disease is a degenerative disorder of the nervous system that affects movement. It is caused by the progressive loss of dopamine-producing cells in a region of the brain called the substantia nigra. ...</p>
+        {/* <a href="" class="btn">read more</a> */}
+      </div>
+      {/* <!--         end content --> */}
+
+    </div>
+    {/* <!--     end post --> */}
+          
+      <iframe width="610" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=nallasopra%20Vasai%20Virar+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'></a>
+  </div>
+
       
+</section>
+
+{/* <!-- end blog --> */}
+
+
+
       
       
     

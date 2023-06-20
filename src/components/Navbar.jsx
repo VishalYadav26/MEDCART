@@ -6,10 +6,13 @@ import { AppContext } from "../context";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { getAuth } from "firebase/auth";
 
 function Navbar() {
   const [closeNavbar, setcloseNavbar] = useState(false);
   const [errorBoundary, setErrorBoundary] = useState(false);
+  
+
   const closeNav = () => {
     closeNav(true);
   };
@@ -18,6 +21,7 @@ function Navbar() {
   });
   const { items, Authuser, logout } = useContext(AppContext);
   // console.log(items.length);
+  console.log(Authuser)
   const [navIcon, setNavIcon] = useState(false);
   const handleNav = () => {
     setNavIcon(!navIcon);
@@ -35,11 +39,13 @@ function Navbar() {
       {/* <!-- component --> */}
       <nav className=" items-center relative justify-between bg-white  py-6 w-full hidden md:flex">
         <div className="flex gap-28 items-center">
-          <div>
+          {/* <div>
             <span className="font-eagle text-black cursor-pointer text-2xl">
               MED_CART.
             </span>
-          </div>
+          </div> */}
+          <div class="text-container">
+            <h1>MED_CART</h1></div>
           <ul
             id="drawer"
             role="menu"
@@ -53,6 +59,11 @@ function Navbar() {
             <li className="text-lg  cursor-pointer">
               <NavLink to="/about" className="text-black nav font-gilroyMedium">
                 About
+              </NavLink>
+            </li>
+            <li className="text-lg  cursor-pointer">
+              <NavLink to="/product" className="text-black nav font-gilroyMedium">
+                  Products
               </NavLink>
             </li>
             <li className="text-lg  ">
@@ -81,7 +92,8 @@ function Navbar() {
               onClick={handleLogout}
               className=" cursor-pointer uppercase font-gilroyMedium"
             >
-              logout
+              {/* logout */}
+              WELCOME {Authuser.email}
             </button>
           ) : (
             <Link
@@ -160,13 +172,18 @@ function Navbar() {
               onClick={handleLogout}
               className=" border-t pt-3 font-gilroyMedium"
             >
-              logout
+              {/* logout */}
+              {Authuser.email}
+
             </button>
           ) : (
             <Link to="/login" className="font-gilroyMedium" onClick={closeNav}>
               Login
             </Link>
           )}
+          
+
+
         </nav>
       </div>
     </header>

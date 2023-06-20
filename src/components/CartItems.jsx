@@ -42,7 +42,7 @@ function CartItems() {
             <p className="mt-3 font-gilroyMedium text-xl lg:mt-0  w-48">
               {item.title}
             </p>
-            <p className="hidden lg:block">${item.price}</p>
+            <p className="hidden lg:block">₹{item.price}</p>
             <div className="flex items-center my-7 md:my-0 md:justify-center gap-10">
               <div className=" flex gap-3 items-center max-w-[250px] h-12 px-4">
                 <p className="font-gilroyRegular text-base text-gray-400">
@@ -54,7 +54,7 @@ function CartItems() {
                 </div>
               </div>
               <p className="font-gilroyMedium text-xl">
-                ${item.quantity * item.price}
+              ₹{item.quantity * item.price}
               </p>
             </div>
           </div>

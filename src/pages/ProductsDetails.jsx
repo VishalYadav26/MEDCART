@@ -35,10 +35,10 @@ function ProductDetails() {
             {singleData.title}
           </h2>
           <p className="text-gray-500 text-base line-through inline-block mr-5">
-            ${singleData.oldPrice}{" "}
+          ₹{singleData.oldPrice}{" "}
           </p>
           <span className="  text-black text-2xl md:text-3xl font-gilroyMedium">
-            ${singleData.price}
+          ₹{singleData.price}
           </span>
 
           <p className="mt-10 font-gilroyMedium max-w-3xl text-xl text-gray-500">

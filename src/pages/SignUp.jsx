@@ -6,6 +6,8 @@ import * as yup from "yup";
 import { auth } from "../Auth/Firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import {db} from "../Auth/Firebase"
+import {collection , addDoc} from "firebase/firestore";
 
 const scheme = yup.object().shape({
   name: yup.string().required("Required"),
@@ -41,6 +43,7 @@ function Signup() {
     validationSchema: scheme,
     onSubmit,
   });
+  
   return (
     <div className="max-w-7xl mx-auto px-5 lg:px-0" data-aos="fade">
       <h2 className="font-gilroyMedium text-3xl text-center mt-16">SIGN UP</h2>
